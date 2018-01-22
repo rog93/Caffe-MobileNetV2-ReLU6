@@ -13,5 +13,6 @@ message ReLU6Parameter {
   optional float negative_slope = 1 [default = 0];
 }
 ```
-
+# Experiments
+By replacing all ReLU layers in farmingyard's MobileNetV2(https://github.com/farmingyard/caffe-mobilenet_v2) configuration with ReLU6 layers, I got a Top-1 error of 28.208% on ImageNet-12 validation set.
 
