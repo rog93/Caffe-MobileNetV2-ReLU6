@@ -13,6 +13,4 @@ message ReLU6Parameter {
   optional float negative_slope = 1 [default = 0];
 }
 ```
-## Experiments on ImageNet
-I trained my model using farmingyard's MobileNetV2(https://github.com/farmingyard/caffe-mobilenet_v2) configuration with all ReLU layers replaced by ReLU6 layers and got a Top-1 error of 28.208% on ImageNet-12 validation set.
 
