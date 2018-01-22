@@ -14,5 +14,5 @@ message ReLU6Parameter {
 }
 ```
 # Experiments on ImageNet
-By replacing all ReLU layers with ReLU6 layers in farmingyard's MobileNetV2(https://github.com/farmingyard/caffe-mobilenet_v2) configuration, I got a Top-1 error of 28.208% on ImageNet-12 validation set.
+By using farmingyard's MobileNetV2(https://github.com/farmingyard/caffe-mobilenet_v2) configuration but replacing all ReLU layers with ReLU6 layers, I got a Top-1 error of 28.208% on ImageNet-12 validation set.
 
