@@ -14,7 +14,7 @@ message ReLU6Parameter {
 }
 ```
 ## Experiments
-I got top-1 error of 28.208% on imagenet using farmingyard's MobileNetV2 config(https://github.com/farmingyard/caffe-mobilenet_v2) with all ReLU Layers replaced by ReLU6 Layers, which is slightly better than the performance claimed in paper.
+I got top-1 error of 28.208% on imagenet using farmingyard's MobileNetV2 config(https://github.com/farmingyard/caffe-mobilenet_v2) with all ReLU Layers replaced by ReLU6 Layers, which is slightly better than the performance claimed in paper(https://arxiv.org/abs/1801.04381).
 
 But my inference is really time-consuming mainly caused by the ineffient caffe implementation of depthwise conv.
 
