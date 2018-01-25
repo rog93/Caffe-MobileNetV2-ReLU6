@@ -18,5 +18,5 @@ I got top-1 error of 28.208% on imagenet which is slightly better than the perfo
 
 I trained my model using farmingyard's MobileNetV2 config(https://github.com/farmingyard/caffe-mobilenet_v2) but replacing all ReLU Layers by ReLU6 Layers.
 
-But my inference is really time-consuming mainly caused by the ineffient caffe implementation of depthwise conv.
+Unfortunately my inference is really time-consuming mainly caused by the ineffient caffe implementation of depthwise conv.
 
